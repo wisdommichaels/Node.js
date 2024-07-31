@@ -13,12 +13,14 @@
 // console.log("Server running at http://localhost:3000");
 
 // create a program that reads and console.log data from hello.txt
-const fs = require ("fs")
-fs.readFile("welcome.txt", function(error, data){
-    if(error){
-        console.log(error.stack);
-        return;
-    };
-    console.log(data.toString());
+// const fs = require ("fs")
+// fs.readFile("welcome.txt", function(error, data){
+//     if(error){
+//         console.log(error.stack);
+//         return;
+//     };
+//     console.log(data.toString());
     
-});
+// });
+
+// Create a function that generates random passwords and console.log() that password.
