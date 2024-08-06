@@ -1,5 +1,7 @@
 // Create a function that generates random passwords and console.log() that password.
-export function generatePassword(){
+ export const passwordGenerator = generatePassword
+ 
+ function generatePassword(){
     const chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     const passwordLength = 12;
     let password = "";
@@ -9,3 +11,4 @@ export function generatePassword(){
     console.log(password);
 }
 generatePassword()
+ 
