@@ -2,7 +2,6 @@
   "name": "wizzyfunction",
   "version": "1.0.0",
   "main": "password_gerator.js",
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +10,7 @@
   "license": "ISC",
   "description": "This package generates a random password",
   "dependencies": {
-    
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.14"
   }
 }
